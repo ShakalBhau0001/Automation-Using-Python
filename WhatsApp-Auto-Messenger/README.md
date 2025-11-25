@@ -48,7 +48,7 @@ Tkinter comes pre-installed with Python, so no extra installation needed.
 1. Clone or download the project:
 
 ```bash
-git clone https://github.com/ShakalBhau0001/Python-Mini-Projects.git
+git clone https://github.com/ShakalBhau0001/Automation-Using-Python.git
 cd WhatsApp-Auto-Messenger
 ```
 
