@@ -8,8 +8,8 @@ Just enter the **phone number** and **your custom message**, click **Send**, and
 ## ✨ Features
 
 - 🖱️ Easy-to-use graphical interface (Tkinter)  
-- 📱 Send messages to **any WhatsApp number**  
-- ✍️ Fully **custom message** input  
+- 📱 Send messages to **Any WhatsApp Number**  
+- ✍️ Fully **enter your message** input  
 - ⚡ Instant sending using **pywhatkit.sendwhatmsg_instantly()**  
 - 💨 Lightweight — only one external library  
 - 🎨 Simple and minimal UI  
@@ -30,6 +30,8 @@ WhatsApp-Auto-Messenger/
 ## 🧰 Requirements
 
 Make sure you have **Python 3.7+** installed.
+
+**WhatsApp Web must be logged in for this feature to work**
 
 Install the required library:
 
@@ -86,7 +88,7 @@ Built with ❤️ by **ShakalBhau0001**
 
 - **Python 3**  
 - **Tkinter** — GUI Interface  
-- **PyWhatKit** — WhatsApp automation  
+- **PyWhatKit** — WhatsApp Automation  
 
 ---
 
