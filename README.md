@@ -12,10 +12,14 @@ Each project is self-contained with its own main code file and README for instru
 Automation-Using-Python/
 │
 ├── WhatsApp-Auto-Messenger/
-│   ├── whatsapp_messenger.py     # Main application code
-│   └── README.md                 # Project documentation
+│   ├── whatsapp_messenger.py
+│   └── README.md
 │
-└── README.md                     # Main repo documentation
+├── Phone-Tracer/
+│   ├── phone_tracer.py
+│   └── README.md
+│
+└── README.md
 
 ```
 
@@ -34,6 +38,19 @@ Enter the phone number + message → sends automatically through WhatsApp Web.
 - Uses `pywhatkit` for automation  
 
 **File:** `whatsapp_messenger.py`
+
+---
+
+### 2. Phone Tracer 🔍  
+A Python-based tool to **trace basic information about a phone number**, such as:  
+- Country  
+- Carrier  
+- Region  
+- Time zone  
+
+Uses open-source Python libraries for analyzing phone number metadata.
+
+**File:** `phone_tracer.py`
 
 ---
 
@@ -66,6 +83,7 @@ python whatsapp_messenger.py
 - **Python 3.8+**
 - **Tkinter** ( GUI )
 - **PyWhatKit** ( WhatsApp Automation )
+- phonenumbers ( For Phone Tracing)
 
 ---
 
