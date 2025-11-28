@@ -1,109 +1,99 @@
 # 📱 PhoneTracer
 
-A simple and clean **Phone Number Tracing GUI Tool** made using:
+A simple and clean GUI tool to **trace detailed information about any phone number** using  
+**Python + Tkinter + phonenumbers**.  
+Just enter a valid number → click **Trace Number** → and all details appear instantly in the app.
 
--   Tkinter (GUI)
--   `phonenumbers` library
+---
 
-This tool can detect:-
-- Country
-- Region
-- Carrier / SIM Company
-- Timezones
-- Validity of phone number
+## ✨ Features
 
-------------------------------------------------------------------------
+- 🖥️ Easy-to-use Tkinter GUI  
+- 🌍 Detects **Country & Region**  
+- 📡 Fetches **Carrier / SIM Provider**  
+- 🕒 Shows **Timezones** for the number  
+- ✔️ Validity check (valid / invalid)  
+- ⚠️ Error handling for wrong number formats  
+- 🔄 Clear button to reset fields  
+- 🎨 Clean and minimal UI  
 
-## 🚀 Features
+---
 
--  GUI Interface (Tkinter)
--  Valid Phone Number Check
--  Error Handling (invalid format, unknown numbers)
--  Auto-focus input
--  Clear Button (reset input & result)
--  Clean and organized layout
-
-------------------------------------------------------------------------
 ## 📂 Project Structure
 
 ```bash
 Phone-Tracer/
 │
-├── phone_tracer.py         # Main application
-└── README.md               # Project documentation
+├── phone_tracer.py        # Main application
+└── README.md              # Project documentation
 ```
 
 ---
 
-
 ## 🧰 Requirements
 
-Make sure you have **Python 3.7+** installed.
+Make sure you have **Python 3.7+** or higher.
 
-Install the required library:
+Install the required dependency:
 
 ```bash
 pip install phonenumbers
 ```
 
-Tkinter comes pre-installed with Python, so no extra installation needed.
+Tkinter already comes with Python — no extra installation needed.
 
 ---
 
-## ▶️ How to Run
+## 🚀 Usage
 
-1. Clone or download the project:
+1. Clone or download the repository:
 
 ```bash
 git clone https://github.com/ShakalBhau0001/Automation-Using-Python.git
 cd Phone-Tracer
 ```
 
-2. Run the application:
+2. Run the tool:
 
 ```bash
 python phone_tracer.py
 ```
 
-The GUI window will open instantly.
+A graphical window will open automatically.
 
-------------------------------------------------------------------------
+---
 
-## 📌 Usage
+## 🧠 How It Works
 
-1.  Enter phone number with country code
-    Example:
+- Takes the phone number input (with country code)  
+- Validates the number using `phonenumbers.is_valid_number()`  
+- Extracts:
+  - Country  
+  - Region  
+  - Carrier  
+  - Timezones  
+- Displays everything neatly in the GUI  
+- Handles formatting errors using `NumberParseException`  
+- “Clear” button resets input + output instantly  
 
-        +91XXXXXXXXXX
+---
 
-2.  Click **Trace Number**
+## 📌 Example Input
 
-3.  Click **Clear** to reset the form
+```
++91XXXXXXXXXX
+```
 
-All results show live inside the GUI window.
+Enter → Click **Trace Number** → Get full details.
 
-------------------------------------------------------------------------
-
-## 🧩 Code Included
-
-The improved version includes:
-
--   Number validation
--   Specific `NumberParseException` handling
--   Dynamic updates
--   Clean UI with Tkinter layout
--   Reset function for input + output
-
-------------------------------------------------------------------------
+---
 
 ## 📜 License
 
-This tool is free to use for learning and personal projects.
+This project is free to use for learning and personal automation tasks.
 
-------------------------------------------------------------------------
+---
 
 ## 💛 Author
 
 > Built with ❤️ by **ShakalBhau0001**
-
-------------------------------------------------------------------------
