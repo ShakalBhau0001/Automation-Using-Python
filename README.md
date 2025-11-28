@@ -19,6 +19,10 @@ Automation-Using-Python/
 │   ├── phone_tracer.py
 │   └── README.md
 │
+├── Text-To-Speech/
+│   ├── text_to_speech.py
+│   └── README.md
+│
 └── README.md
 
 ```
@@ -54,6 +58,20 @@ Uses open-source Python libraries for analyzing phone number metadata.
 
 ---
 
+### **3. Text-To-Speech 🎤**
+
+A clean Tkinter-based GUI application that converts **typed text into speech** using the offline engine `pyttsx3`.
+
+**Features:**
+- Convert any text to speech  
+- Offline (no internet needed)  
+- Smooth and simple GUI  
+- Adjustable speaking rate  
+
+**File:** `text_to_speech.py`
+
+---
+
 ## Getting Started
 
 1. **Clone the repository**
@@ -83,8 +101,8 @@ python whatsapp_messenger.py
 - **Python 3.8+**
 - **Tkinter** ( GUI )
 - **PyWhatKit** ( WhatsApp Automation )
-- phonenumbers ( For Phone Tracing)
-
+- **phonenumbers** ( For Phone Tracing)
+- **pyttsx3** ( Offline Text-To-Speech)
 ---
 
 ## 💡 Author
