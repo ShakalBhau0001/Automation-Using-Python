@@ -27,6 +27,14 @@ Text-To-Speech/
 
 ---
 
+## ⚙️ Tech Stack
+
+- **Python 3**  
+- **Tkinter** — GUI Interface  
+- **pyttsx3** — Offline Text-to-Speech Engine  
+
+---
+
 ## 🧰 Requirements
 
 Make sure you have **Python 3.7+** installed.
@@ -75,18 +83,12 @@ python text_to_speech.py
 
 ---
 
+> 🔊 *"A simple and lightweight tool to convert text into speech with just one click."*
+
+---
+
 ## 🧑‍💻 Author
 
 Built with ❤️ by **ShakalBhau0001**
 
 ---
-
-## ⚙️ Tech Stack
-
-- **Python 3**  
-- **Tkinter** — GUI Interface  
-- **pyttsx3** — Offline Text-to-Speech Engine  
-
----
-
-> 🔊 *"A simple and lightweight tool to convert text into speech with just one click."*
