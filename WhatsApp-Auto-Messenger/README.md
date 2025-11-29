@@ -27,6 +27,14 @@ WhatsApp-Auto-Messenger/
 
 ---
 
+## ⚙️ Tech Stack
+
+- **Python 3**  
+- **Tkinter** — GUI Interface  
+- **PyWhatKit** — WhatsApp Automation  
+
+---
+
 ## 🧰 Requirements
 
 Make sure you have **Python 3.7+** installed.
@@ -61,7 +69,7 @@ python whatsapp_messenger.py
 3. A GUI window will open — enter:
 
    - **Phone Number** (with country code, e.g., +91…)  
-   - **Your Custom Message**
+   - **Enter Your Message**
 
 4. Click **“Send Message”**  
    The app will automatically open WhatsApp Web and send the message.
@@ -74,7 +82,11 @@ python whatsapp_messenger.py
 - Uses `pywhatkit.sendwhatmsg_instantly()` to send the message  
 - Opens WhatsApp Web in the browser  
 - Automatically sends your message to the entered number  
-- Shows **success** or **error** popups  
+- Shows **success** or **error** popups
+
+---
+
+> 💬 *"A lightweight tool to send WhatsApp messages instantly with ease and simplicity."*
 
 ---
 
@@ -83,13 +95,3 @@ python whatsapp_messenger.py
 Built with ❤️ by **ShakalBhau0001**
 
 ---
-
-## ⚙️ Tech Stack
-
-- **Python 3**  
-- **Tkinter** — GUI Interface  
-- **PyWhatKit** — WhatsApp Automation  
-
----
-
-> 💬 *"A lightweight tool to send WhatsApp messages instantly with ease and simplicity."*
