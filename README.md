@@ -62,7 +62,7 @@ Uses open-source Python libraries for analyzing phone number metadata.
 
 ---
 
-### **3. Text-To-Speech 🎤**
+### 3. Text-To-Speech 🎤
 
 A clean Tkinter-based GUI application that converts **typed text into speech** using the offline engine `pyttsx3`.
 
@@ -76,7 +76,7 @@ A clean Tkinter-based GUI application that converts **typed text into speech** u
 
 ---
 
-4. Website Launcher 🌐
+### 4. Website Launcher 🌐
 
 A Python GUI app to **open any website instantly** from a list or custom URL.
 Useful for quick website launching and productivity.
