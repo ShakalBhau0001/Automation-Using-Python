@@ -5,7 +5,7 @@ Each project is self-contained with its own main code file and README for instru
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 
@@ -23,13 +23,17 @@ Automation-Using-Python/
 │   ├── text_to_speech.py
 │   └── README.md
 │
+├── Website-Launcher/
+│   ├── website_launcher.py   # Main application
+│   └── README.md             # Project documentation
+│
 └── README.md
 
 ```
 
 ---
 
-## Included Projects
+## 🚀 Included Projects
 
 ### 1. WhatsApp Auto Messenger 💬  
 A simple GUI tool to **instantly send WhatsApp messages** using Python.  
@@ -72,6 +76,22 @@ A clean Tkinter-based GUI application that converts **typed text into speech** u
 
 ---
 
+4. Website Launcher 🌐
+
+A Python GUI app to **open any website instantly** from a list or custom URL.
+Useful for quick website launching and productivity.
+
+**Features**
+
+- One-click website launching
+- Add your own website URLs
+- Fast & lightweight GUI
+- Uses Python’s built-in `webbrowser` module
+  
+**File**: `website_launcher.py`
+
+---
+
 ## Getting Started
 
 1. **Clone the repository**
@@ -103,6 +123,8 @@ python whatsapp_messenger.py
 - **PyWhatKit** ( WhatsApp Automation )
 - **phonenumbers** ( For Phone Tracing)
 - **pyttsx3** ( Offline Text-To-Speech)
+- **webbrowser** → Website Launcher
+
 ---
 
 ## 💡 Author
