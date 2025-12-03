@@ -119,10 +119,10 @@ python whatsapp_messenger.py
 ## 🧰 Technologies Used
 
 - **Python 3.8+**
-- **Tkinter** ( GUI )
-- **PyWhatKit** ( WhatsApp Automation )
-- **phonenumbers** ( For Phone Tracing)
-- **pyttsx3** ( Offline Text-To-Speech)
+- **Tkinter** → GUI
+- **PyWhatKit** → WhatsApp Automation
+- **phonenumbers** → For Phone Tracing
+- **pyttsx3** → Offline Text-To-Speech
 - **webbrowser** → Website Launcher
 
 ---
