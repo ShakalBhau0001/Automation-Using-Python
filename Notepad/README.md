@@ -115,6 +115,6 @@ This project uses:
 ## 👨‍💻 Author
 
 Made with ❤️ by **ShakalBhau0001**
-Feel free to contribute, improve, and customize!
+> Feel free to contribute, improve, and customize!
 
 ---
