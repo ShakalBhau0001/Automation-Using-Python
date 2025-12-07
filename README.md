@@ -9,25 +9,29 @@ Each project is self-contained with its own main code file and README for instru
 
 ```
 
-Automation-Using-Python/
+Automation-Using-Python/                
 │
-├── WhatsApp-Auto-Messenger/
-│   ├── whatsapp_messenger.py
-│   └── README.md
+├── WhatsApp-Auto-Messenger/            # Automates sending WhatsApp messages
+│   ├── whatsapp_messenger.py           # Main script for WhatsApp automation
+│   └── README.md                       # Documentation for WhatsApp Messenger
 │
-├── Phone-Tracer/
-│   ├── phone_tracer.py
-│   └── README.md
+├── Phone-Tracer/                       # Tracks phone details via number lookup
+│   ├── phone_tracer.py                 # Main script for phone tracing
+│   └── README.md                       # Documentation for Phone Tracer
 │
-├── Text-To-Speech/
-│   ├── text_to_speech.py
-│   └── README.md
+├── Text-To-Speech/                     # Converts text into speech using Python
+│   ├── text_to_speech.py               # Main script for TTS conversion
+│   └── README.md                       # Documentation for Text-To-Speech
 │
-├── Website-Launcher/
-│   ├── website_launcher.py   # Main application
-│   └── README.md             # Project documentation
+├── Website-Launcher/                   # Opens websites automatically
+│   ├── website_launcher.py             # Main application script
+│   └── README.md                       # Project documentation
 │
-└── README.md
+├── Notepad/                            # Simple Notepad application using Python
+│   ├── notepad_app.py                  # Main Notepad GUI application
+│   └── README.md                       # Documentation for Notepad
+│
+└── README.md                           # Root documentation for all projects
 
 ```
 
@@ -39,7 +43,7 @@ Automation-Using-Python/
 A simple GUI tool to **instantly send WhatsApp messages** using Python.  
 Enter the phone number + message → sends automatically through WhatsApp Web.
 
-**Features:**  
+**✨ Features:**  
 - Send messages instantly  
 - Clean Tkinter GUI  
 - Supports any phone number  
@@ -66,7 +70,7 @@ Uses open-source Python libraries for analyzing phone number metadata.
 
 A clean Tkinter-based GUI application that converts **typed text into speech** using the offline engine `pyttsx3`.
 
-**Features:**
+**✨ Features:**
 - Convert any text to speech  
 - Offline (no internet needed)  
 - Smooth and simple GUI  
@@ -81,7 +85,7 @@ A clean Tkinter-based GUI application that converts **typed text into speech** u
 A Python GUI app to **open any website instantly** from a list or custom URL.
 Useful for quick website launching and productivity.
 
-**Features**
+**✨ Features**
 
 - One-click website launching
 - Add your own website URLs
@@ -89,6 +93,25 @@ Useful for quick website launching and productivity.
 - Uses Python’s built-in `webbrowser` module
   
 **File**: `website_launcher.py`
+
+---
+### 5. Notepad 📝
+
+A **modern and enhanced Notepad application** built using Python & Tkinter.
+
+**✨ Features**
+
+- 🔢 Line numbers
+- 🧮 Live word count
+- 🔍 Search & Replace (Ctrl + F)
+- 💾 Auto-save every 10 seconds
+- 🌙 Dark Mode
+- 🔠 Font resizing
+- 📁 New / Open / Save / Save As
+- ↩️ Undo / Redo
+- ⌨️ Keyboard shortcuts
+
+**File:** `notepad_app.py`
 
 ---
 
