@@ -12,26 +12,26 @@ Perfect for keeping your PC clean without lifting a finger ❤️
 ## ✨ Features
 
 -   📂 **Automatic File Sorting**
-    Sorts files into categories like Images, Videos, Music, Docs, Zip,
+    - Sorts files into categories like Images, Videos, Music, Docs, Zip,
     Programs etc.
 
 -   ⚡ **One-Click Clean-Up**
-    Just run once --- your entire Downloads folder becomes organized.
+    - Just run once --- your entire Downloads folder becomes organized.
 
 -   🔍 **Extension-Based Detection**
-    Smart mapping for each common file type.
+    - Smart mapping for each common file type.
 
 -   📁 **Auto-Folder Creation**
-    Missing folders are created automatically.
+    - Missing folders are created automatically.
 
 -   🔄 **Prevents Duplicate Errors**
-    Skips files that already exist in target folders.
+    - Skips files that already exist in target folders.
 
 -   🧠 **Path Customization**
-    Easily change source/destination folder paths.
+    - Easily change source/destination folder paths.
 
 -   🐍 **100% Pure Python**
-    No extra libraries required.
+    - No extra libraries required.
 
 ---
 
@@ -86,17 +86,17 @@ Just Python + love 💖
 
 ## 🧩 Categories Supported
 
-  Category    Extensions
-  ----------- ---------------------------------------------------
-  Images      .jpg, .png, .jpeg, .gif
-  Videos      .mp4, .mkv
-  Music       .mp3, .wav
-  Documents   .pdf, .docx, .csv, .xlsx, .pptx, .doc, .ppt, .xls
-  Zip         .zip, .tgz, .rar, .tar
-  Setup       .exe, .msi
-  Programs    .py, .c, .cpp, .php
-  Design      .psd, .xd
-  Others      Everything else
+| Category   | Extensions |
+|-----------|------------|
+| **Images**    | `.jpg`, `.png`, `.jpeg`, `.gif` |
+| **Videos**    | `.mp4`, `.mkv` |
+| **Music**     | `.mp3`, `.wav` |
+| **Documents** | `.pdf`, `.docx`, `.csv`, `.xlsx`, `.pptx`, `.doc`, `.ppt`, `.xls` |
+| **Zip**       | `.zip`, `.tgz`, `.rar`, `.tar` |
+| **Setup**     | `.exe`, `.msi` |
+| **Programs**  | `.py`, `.c`, `.cpp`, `.php` |
+| **Design**    | `.psd`, `.xd` |
+| **Others**    | Everything else |
 
 ---
 
@@ -133,6 +133,7 @@ Just Python + love 💖
 ## 👨‍💻 Author
 
 Made with ❤️ by **ShakalBhau0001**
+
 > Feel free to fork, customize, and contribute!
 
 ---
