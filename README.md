@@ -1,4 +1,4 @@
-## Automation-Using-Python
+## 🎯 Automation-Using-Python
 
 Welcome to **Automation Using Python**, a collection of automation-focused Python tools designed to simplify repetitive tasks, boost productivity, and demonstrate the power of Python-based automation.  
 Each project is self-contained with its own main code file and README for instructions.
