@@ -31,6 +31,10 @@ Automation-Using-Python/
 │   ├── notepad_app.py                  # Main Notepad GUI application
 │   └── README.md                       # Documentation for Notepad
 │
+├── Smart-File-Organizer/               # Organizes files into categories automatically
+│   ├── smart_file_organizer.py         # Main sorting script
+│   └── README.md                       # Documentation
+│
 └── README.md                           # Root documentation for all projects
 
 ```
@@ -115,6 +119,20 @@ A **modern and enhanced Notepad application** built using Python & Tkinter.
 
 ---
 
+### 6. Smart File Organizer 🗂️
+A powerful automation script that **automatically sorts files** in a directory into categories like Images, Videos, Documents, ZIP files, etc.
+
+**✨ Features**
+
+- Auto-detects file extensions
+- Cleans messy directories
+- Customizable categories
+- Fast & lightweight
+
+**File:** `smart_file_organizer.py`
+
+---
+
 ## Getting Started
 
 1. **Clone the repository**
@@ -147,6 +165,7 @@ python whatsapp_messenger.py
 - **phonenumbers** → For Phone Tracing
 - **pyttsx3** → Offline Text-To-Speech
 - **webbrowser** → Website Launcher
+- **os & shutil** → Smart File Organizer
 
 ---
 
